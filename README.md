@@ -4,9 +4,9 @@
 - [Create new custom Edge profiles with PowerShell](https://danielpetri666.medium.com/create-new-custom-edge-profiles-with-powershell-e1ca47b53407) および [Create-EdgeProfile.ps1](https://github.com/danielpetri666/LazyAdmin/blob/main/Create-EdgeProfile.ps1)
 
 ## 注意事項
-26 個以上のプロファイルを本スクリプトで作成しようとすると、Edge 自体の起動が起動できなくなる動作を確認。  
-$array で指定する新しいプロファイルの数は 25 個までにする必要がある。  
-なお、手動で作成する分にはその後何個でも可能 (確認した限りでは追加で 10 個、つまり 25 + 10 個までは作成できた)。  
+25 個以上のプロファイルを本スクリプトで作成しようとすると、Edge 自体の起動が起動できなくなる動作を確認。  
+$array で指定する新しいプロファイルの数は 24 個までにする必要がある。  
+なお、手動で作成する分にはその後何個でも可能 (確認した限りでは追加で 10 個、つまり 24 + 10 = 34 個などが作成可能)。  
 
 ## Sample
 ```
